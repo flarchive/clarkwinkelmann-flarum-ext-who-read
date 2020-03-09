@@ -1,0 +1,42 @@
+clarkwinkelmann-who-read:
+    forum:
+        tooltip:
+            last-read-at: "{username} read {ago}"
+            last-read-at-behind: "{username} last read {ago} and is behind"
+            last-read-at-up-to-date: "{username} read the last post {ago}"
+        more:
+            show: Show {count} more
+            info: And {count} more
+        footer:
+            to-here-some-stopped: "{total} users read this post. {stopped} did not read further"
+            to-here-none-stopped: "{total} users read this post. Everybody read further"
+            to-here-nobody: "Nobody read this post"
+            to-end: "{total} users read to the end"
+            to-end-nobody: "Nobody read to the end"
+        controls:
+            set-unread: Mark unread
+            remove-unread: Remove unread
+        badges:
+            unread: Marked as unread
+        modal:
+            title: Readers
+            up-to-this-post: Users who read up to this post
+            past-this-post: Users who read past this post
+            to-the-end: Users who read to the end
+            behind: Users who did not read to the end
+
+    admin:
+        permissions:
+            heading: Who read
+            see-read: See read status
+            see-subscription: See subscription status
+            see-unread: See unread status of other users
+            mark-unread: Mark discussions as unread for own user
+        settings:
+            title: Who read settings
+            show-in-discussion-list: Show readers in discussion list
+            show-in-hero: Show readers in discussion hero
+            show-between-posts: Show read status between posts
+            hide-when-behind: Hide a user completely if they are behind that many posts
+            max-visible: Maximum number of users to show before "read more"
+            only-groups: Only show read status of users belonging to those groups
